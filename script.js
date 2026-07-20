@@ -175,8 +175,12 @@ window.addEventListener("scroll", () => {
 const menuIcon = document.querySelector(".menu-icon");
 const navRight = document.querySelector(".nav-right");
 
-if(menuIcon){
+console.log(menuIcon);
+console.log(navRight);
+
+if (menuIcon && navRight) {
     menuIcon.addEventListener("click", () => {
+        alert("Menu Clicked");
         navRight.classList.toggle("active");
     });
 }

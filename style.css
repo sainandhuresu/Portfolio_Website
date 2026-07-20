@@ -1272,6 +1272,10 @@ html{
     display: none;
     font-size: 28px;
     cursor: pointer;
+    color: white;
+    z-index: 10001;
+    position: relative;
+
 }
 
 
@@ -1455,14 +1459,14 @@ html{
   }
     
 
-    .nav-left{
-        display: flex;
-        align-items: center;
-    }
-
 
     .nav-right.active{
         display:flex;
+    }
+
+     .nav-left{
+        display: flex;
+        align-items: center;
     }
 
     .home-right {
